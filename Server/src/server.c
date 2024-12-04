@@ -1,11 +1,3 @@
-/*
- ============================================================================
- Name        : Server.c
- Author      : Michele Allegrini, Luca Lolaico
- Description : Server TCP and its modules
- ============================================================================
- */
-
 #include "protocol.h"
 #include "utils.h"
 #include "connection.h"
