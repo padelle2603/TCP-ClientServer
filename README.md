@@ -6,6 +6,9 @@ Progetto Client-Server per la generazione di una password in varie modalità
     m: password mista (lettere minuscole e numeri)
     s: password sicura (lettere maiuscole, minuscole, numeri e simboli)
 
+La richiesta viene effettuata scrivendo "[modalità][spazio][numero(6-32)]"
+Se si invia "q" il client cesserà di funzionare.
+
 
 MODULARIZZAZIONE:
 
