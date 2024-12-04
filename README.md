@@ -8,17 +8,19 @@ Progetto Client-Server per la generazione di una password in varie modalità
 
 
 MODULARIZZAZIONE:
--Client
+
 ●	Codice sorgente nella cartella src/:
-○	client.c: main del client.
-○	connection.c e connection.h: gestiscono le connessioni.
-○	protocol.h: specifica le regole di comunicazione (comuni per client e server).
-○	utils.c e utils.h: funzioni di utilità generali.
--Server
+
+    ○	client.c: main del client.
+    ○	connection.c e connection.h: gestiscono le connessioni.
+    ○	protocol.h: specifica le regole di comunicazione (comuni per client e server).
+    ○	utils.c e utils.h: funzioni di utilità generali.
+    
 ●	Codice sorgente nella cartella src/:
-○	server.c: main del server.
-○	connection.c e connection.h: gestiscono le connessioni.
-○	password.c e password.h: gestiscono generazione password..
-○	protocol.h: specifica le regole di comunicazione (comuni per client e server).
-○	utils.c e utils.h: funzioni di utilità generali.
+
+    ○	server.c: main del server.
+    ○	connection.c e connection.h: gestiscono le connessioni.
+    ○	password.c e password.h: gestiscono generazione password..
+    ○	protocol.h: specifica le regole di comunicazione (comuni per client e server).
+    ○	utils.c e utils.h: funzioni di utilità generali.
 
