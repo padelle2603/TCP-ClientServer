@@ -1,10 +1,4 @@
-/*
- ============================================================================
- Name        : Client.c
- Author      : Michele Allegrini, Luca Lolaico
- Description : Client TCP and its modules
- ============================================================================
- */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
